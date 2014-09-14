@@ -3,7 +3,7 @@
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="entryPoint.py">
+  <extension point="xbmc.python.pluginsource" library="src/entryPoint.py">
     <provides>audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
