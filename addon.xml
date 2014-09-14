@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.nightclubDJ" name="NightClub Dj" version="0.0.1" provider-name="CommanderRhode">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="entryPoint.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Turn XBMC into a Nightclub</summary>
+    <description lang="en">Tries to create a Nightclub atmosphere in XBMC</description>
+    <disclaimer lang="en">Not Ready. Don't use under any circumstances</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>Apache License Version 2.0, January 2004</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/CommanderRhode/plugin.audio.nightclubDJ</source>
+  </extension>
+</addon>

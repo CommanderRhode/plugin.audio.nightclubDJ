@@ -1,4 +1,5 @@
-plugin.audio.nightclubDJ
-========================
+#plugin.audio.nightclubDJ
 
-XBMC Audio Plugin
+##XBMC Audio Plugin
+
+Doesn't do anything yet!
