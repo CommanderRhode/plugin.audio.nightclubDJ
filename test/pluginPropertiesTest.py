@@ -12,5 +12,6 @@ import mock
 
 class TestProperties(unittest.TestCase):
     def test_turning_args_into_properties(self):
-      properties = Properties(1)
-      self.assertEqual(properties.addonHandle(), 1)
+      args = ['1', '2', '3']
+      properties = Properties(args)
+      self.assertEqual(properties.addonHandle(), 2)
