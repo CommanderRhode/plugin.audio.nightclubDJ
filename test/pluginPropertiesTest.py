@@ -6,8 +6,11 @@ testdirectory = os.path.dirname(__file__)
 srcdirectory = '../src'
 sys.path.insert(0, os.path.abspath(os.path.join(testdirectory, srcdirectory)))
 
-from entryPoint import *
+from pluginProperties import Properties
 import unittest
 import mock
 
-#class TestEntryPoint(unittest.TestCase):
+class TestProperties(unittest.TestCase):
+    def test_turning_args_into_properties(self):
+      properties = Properties(1)
+      self.assertEqual(properties.addonHandle(), 1)
